@@ -1,7 +1,7 @@
-FROM microsoft/dotnet:2.1.402-sdk
+FROM microsoft/dotnet:2.1.500-sdk
 
-ENV NODE_VERSION 8.12.0
-ENV NODE_DOWNLOAD_SHA 3df19b748ee2b6dfe3a03448ebc6186a3a86aeab557018d77a0f7f3314594ef6
+ENV NODE_VERSION 10.14.1
+ENV NODE_DOWNLOAD_SHA 2cc1a9b118e5d660cd6611c808f0cd80821c79ea5990c221b78124770f4dc38e
 
 RUN curl -SL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.gz" --output nodejs.tar.gz \
     && echo "$NODE_DOWNLOAD_SHA nodejs.tar.gz" | sha256sum -c - \
