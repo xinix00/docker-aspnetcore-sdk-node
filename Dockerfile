@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1.401
 
 ENV NODE_VERSION 12.18.3
-ENV NODE_DOWNLOAD_SHA e21be7dd07cc143c480695d6214f40873a7791f437c1ca12fc94d45f539a47d9
+ENV NODE_DOWNLOAD_SHA 8cdacecc43c35bcfa5474c793b9e7a01835e4171264f7b13f3e57093371872e9
 # SHA https://nodejs.org/dist/v{NODE_VERSION}/SHASUMS256.txt
 
 RUN curl -SL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.gz" --output nodejs.tar.gz \
