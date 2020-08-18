@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1.101
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.401
 
-ENV NODE_VERSION 12.14.1
+ENV NODE_VERSION 12.18.3
 ENV NODE_DOWNLOAD_SHA e21be7dd07cc143c480695d6214f40873a7791f437c1ca12fc94d45f539a47d9
 # SHA https://nodejs.org/dist/v{NODE_VERSION}/SHASUMS256.txt
 
