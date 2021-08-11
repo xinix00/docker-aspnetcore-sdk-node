@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0.103
+FROM mcr.microsoft.com/dotnet/sdk:5.0.303
 
 ENV NODE_VERSION 14.16.0
 ENV NODE_DOWNLOAD_SHA 7212031d7468718d7c8f5e1766380daaabe09d54611675338e7a88a97c3e31b6
